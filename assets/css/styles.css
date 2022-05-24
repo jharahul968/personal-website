@@ -631,7 +631,7 @@ img {
 .footer__copy{
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color);
+  color: #FFF;
   margin-top: var(--mb-3);
 }
 .footer__title,
