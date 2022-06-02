@@ -762,7 +762,7 @@ img {
   .services__modal{
     padding: 0 .5rem;
   } */
-  .project__img{
+  /* .project__img{
     width: 200px;
   }
   .testimonial__data,
@@ -777,7 +777,7 @@ img {
   .testimonial__data,
   .testimonial__description{
     text-align: center;
-  }
+  } */
 }
 
 /* For medium devices */
