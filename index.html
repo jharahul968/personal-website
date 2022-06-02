@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -45,14 +46,14 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Qualification
 
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        <a href="#publications" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Publications
 
                         </a>
                     </li>
@@ -311,7 +312,7 @@
         </section>
 
         <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section">
+        <section class="qualification section" id="qualification">
             <h2 class="section__title">Qualification</h2>
             <span class="section__subtitle">My Personal Journey</span>
 
@@ -395,24 +396,79 @@
         </section>
 
         <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
+        <!-- <section class="services section" id="services">
 
-        </section>
+        </section> -->
 
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
+        <!--==================== PUBLICATIONS ====================-->
+        <section class="publications section" id="publications">
+            <h2 class="section__title">Publications</h2>
+            <span class="section__subtitle">Exploring my thoughts</span>
+            <div class="publications__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== PUBLICATIONS 1====================-->
+                <div class="publications__content grid swiper-slide">
+                    <img src="assets/img/portfolio1.jpg" alt="" class="publications__img">
+                    <div class="publications__data">
+                        <h3 class="publications__title">My First Website</h3>
+                        <p class="publications__description">This is my first website.</p>
+                        <a href="#" target="_blank" class="button button--flex button--small publications__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--==================== PUBLICATIONS 2====================-->
+                <div class="publications__content grid swiper-slide">
+                    <img src="assets/img/ntbns.JPG" alt="" class="publications__img">
+                    <div class="publications__data">
+                        <h3 class="publications__title">NTBNS Welcome Programme</h3>
+                        <p class="publications__description">The NTBNS Welcome Programme for batch 2078 was successfully completed.</p>
+                        <a href="https://www.facebook.com/ntbns"  target="_blank" class="button button--flex button--small publications__button">
+                        Full Info
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                    </div>
+                </div>
 
+
+                <!--==================== PUBLICATIONS 3====================-->
+                <div class="publications__content grid swiper-slide">
+                    <img src="assets/img/pdsc.JPG" alt="" class="publications__img">
+                    <div class="publications__data">
+                        <h3 class="publications__title">PDSC Orientation</h3>
+                        <p class="publications__description">The PDSC orientation and prize distribution was successfully completed.</p>
+                        <a href="https://www.facebook.com/pdscorg" target="_blank" class="button button--flex button--small publications__button">
+                        Full Info
+                        <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+                <!--Add Arrows-->
+                <div class="swiper-button-next"> 
+                <i class="uil uil-angle-right-b swiper-publications-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-publications-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
+        <!-- <section class="project section">
 
-        </section>
+        </section> -->
 
         <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
+        <!-- <section class="testimonial section">
 
-        </section>
+        </section> -->
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
@@ -489,10 +545,10 @@
                 </div>
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#qualification" class="footer__link">Qualification</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                        <a href="#publications" class="footer__link">Publications</a>
                     </li>
                     <li>
                         <a href="#contact" class="footer__link">Contact Me</a>
@@ -520,7 +576,8 @@
 </a>
 
     <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
